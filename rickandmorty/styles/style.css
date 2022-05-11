@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(15, 17, 27);
+    color:rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.tarjetas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.characters{
+    display: flex;
+    background-color: rgb(38, 39, 49);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.characters img{
+    width: 40%;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.information{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.type{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.status, 
+.species{
+    color:rgba(255, 255, 255, 0.875);
+    margin-left: 5%;
+}
+
+.unknown{
+    color: gray;
+}
+
+.alive{
+    color: green;
+}
+
+.tittle,
+.firstSoon{
+    margin-top: 10px;
+    color: gray;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.origin,
+.location{
+    font-size: 14px;
+    font-weight: 300;
+}
